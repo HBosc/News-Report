@@ -1,0 +1,5 @@
+# Local tooling, not part of the site
+graphify-out/
+.claude/
+.agents/
+skills-lock.json

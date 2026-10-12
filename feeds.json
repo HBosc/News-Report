@@ -1,0 +1,58 @@
+{
+  "maxAgeDays": 3,
+  "maxPerCategory": 40,
+  "maxPerSource": 10,
+  "categories": [
+    {
+      "id": "politics",
+      "name": "Politics",
+      "feeds": [
+        { "name": "NPR Politics",      "url": "https://feeds.npr.org/1014/rss.xml" },
+        { "name": "Politico",          "url": "https://rss.politico.com/politics-news.xml" },
+        { "name": "BBC Politics",      "url": "https://feeds.bbci.co.uk/news/politics/rss.xml" },
+        { "name": "The Guardian",      "url": "https://www.theguardian.com/politics/rss" },
+        { "name": "BBC World",         "url": "https://feeds.bbci.co.uk/news/world/rss.xml" }
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "feeds": [
+        { "name": "G1",                "url": "https://g1.globo.com/rss/g1/" },
+        { "name": "Brasil Paralelo",   "url": "https://www.brasilparalelo.com.br/noticias/feed.xml" }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech",
+      "feeds": [
+        { "name": "The Verge",         "url": "https://www.theverge.com/rss/index.xml" },
+        { "name": "Ars Technica",      "url": "https://feeds.arstechnica.com/arstechnica/index" },
+        { "name": "TechCrunch",        "url": "https://techcrunch.com/feed/" },
+        { "name": "Wired",             "url": "https://www.wired.com/feed/rss" }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity",
+      "feeds": [
+        { "name": "BleepingComputer",  "url": "https://www.bleepingcomputer.com/feed/" },
+        { "name": "The Hacker News",   "url": "https://feeds.feedburner.com/TheHackersNews" },
+        { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/" },
+        { "name": "SecurityWeek",      "url": "https://www.securityweek.com/feed/" },
+        { "name": "Dark Reading",      "url": "https://www.darkreading.com/rss.xml" }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "feeds": [
+        { "name": "Polygon",           "url": "https://www.polygon.com/rss/index.xml" },
+        { "name": "Eurogamer",         "url": "https://www.eurogamer.net/feed" },
+        { "name": "PC Gamer",          "url": "https://www.pcgamer.com/rss/" },
+        { "name": "Rock Paper Shotgun","url": "https://www.rockpapershotgun.com/feed" },
+        { "name": "GameSpot",          "url": "https://www.gamespot.com/feeds/mashup/" }
+      ]
+    }
+  ]
+}
